@@ -1,0 +1,55 @@
+"Resource/UI/HudDemomanCharge.res"
+{
+	"ChargeLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabel"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"3"
+		"wide"			"120"
+		"tall"			"10"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor_override"      "MeterText"
+		"labelText"				""
+		"textAlignment"			"center"
+		"font"					"Product9"
+	}	
+	"ChargeMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Default"
+		"xpos"			"30"
+		"ypos"			"4"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"4"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"bgcolor_override" "0 0 0 125"
+		"fgcolor_override" "White"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	
+	"ItemEffectMeter50"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"ItemEffectMeter50"
+		"xpos"		"60"
+		"ypos"		"4"
+		"zpos"		"3"
+		"wide"		"2"
+		"tall"		"4"
+		"visible"	"1"
+		"enabled"	"1"
+		"fillcolor"	"0 0 0 255"
+	}
+	
+}
