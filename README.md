@@ -1,3 +1,4 @@
 # flareshUI-GREEN
 An edit of flareshUI, which is an edit of Yahud.
-![2 forg](https://user-images.githubusercontent.com/91021280/168422913-b9e0d9b6-3876-43a1-a451-cd2eaab77622.jpg)
+
+![flareshUI-GREEN coverpng](https://user-images.githubusercontent.com/91021280/168424015-a8057136-260b-4c43-84b2-88990c0a1eb5.png)
