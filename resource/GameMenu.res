@@ -102,7 +102,7 @@
 	"HomeServer"
 	{
 		"label" 		"7"
-		"command"       "engine echo  flareshUI-GREEN, Version 1.0!"
+		"command"       "engine echo  flareshUI-GREEN, Version 1.1!"
         "tooltip" 		"flareshUI-Green"
 	}
 }
