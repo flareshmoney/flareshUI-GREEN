@@ -3,6 +3,14 @@ An edit of flareshUI, which is an edit of Yahud.
 
 ![flareshUI-GREEN coverpng](https://user-images.githubusercontent.com/91021280/168424015-a8057136-260b-4c43-84b2-88990c0a1eb5.png)
 
+# Changelog Version 1.1
+
++ Time panel now team colored.
++ Moved Hudmatchstatus a bit closer.
++ Made engi medal smaller.
++ Edited spy disguise panel to be enemy team colored, and to have round edges.
++ Small edit to the KOTH timer background.
++ Small edit to scoreboard.
 
 # Changelog: Version 1.0
 
