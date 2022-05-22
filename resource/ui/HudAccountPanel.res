@@ -2,14 +2,14 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"76"
-		"delta_item_start_y"	"27"
-		"delta_item_end_y"		"24"
+		"delta_item_x"			"80"
+		"delta_item_start_y"	"6"
+		"delta_item_end_y"		"6"
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
 		"zpos"			        "-1"
-		"delta_lifetime"		"0.8"
-		"delta_item_font"		"Product18"
+		"delta_lifetime"		"1"
+		"delta_item_font"		"Product17"
 		"textAlignment"	"east"
 	}
 	
@@ -61,8 +61,8 @@
 		"wide_lodef"	"15"
 		"tall"			"12"
 		"tall_lodef"	"15"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
@@ -76,7 +76,7 @@
 		"xpos"			"9"
 		"ypos"			"-5"
 		"zpos"			"2"
-		"wide"			"99"
+		"wide"			"100"
 		"tall"			"34"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -88,7 +88,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"font"			"Product30"
+		"font"			"Product22"
 	}
 	
 	//Metal Text shadow
@@ -99,7 +99,7 @@
 		"xpos"			"10"
 		"ypos"			"-4"
 		"zpos"			"2"
-		"wide"			"99"
+		"wide"			"100"
 		"tall"			"34"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -111,6 +111,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"HudShadow"
-		"font"			"Product30"
+		"font"			"Product22"
 	}
 }

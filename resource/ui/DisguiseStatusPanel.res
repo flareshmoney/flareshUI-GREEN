@@ -50,16 +50,23 @@
 
 	"DisguiseNamesBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseNamesBG"
-		"xpos"			"22"
-		"ypos"			"437"
+		"xpos"			"23"
+		"ypos"			"436"
         "zpos"          "-4"
-		"wide"			"150"
-		"tall"			"18"
-		"fillcolor"		"DarkGray"
+		"wide"			"148"
+		"tall"			"20"
+	    "teambg_2"		"../hud/tournament_panel_blu"
+		"teambg_3"		"../hud/tournament_panel_red"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"7"	
 	}
 
 	"DisguiseNameLabel"
@@ -70,7 +77,7 @@
 		"xpos"			"63"
 		"ypos"			"434"
 		"zpos"			"1"
-		"wide"			"125"
+		"wide"			"108"
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
@@ -87,7 +94,7 @@
 		"xpos"			"63"
 		"ypos"			"444"
 		"zpos"			"1"
-		"wide"			"125"
+		"wide"			"108"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
@@ -103,7 +110,7 @@
 		"xpos"			"51"
 		"ypos"			"443"
 		"zpos"			"1"
-		"wide"			"122"
+		"wide"			"108"
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"0"
@@ -116,13 +123,13 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"19"
+		"xpos"			"21"
 		"ypos"			"426"
 		"wide"			"48"
-		"tall"			"55"
+		"tall"			"53"
 		"visible"			"1"
 		"enabled"			"1"	
-		"HealthBonusPosAdj"	"10"
+		"HealthBonusPosAdj"	"-35"
 		"HealthDeathWarning"	"0.51"
 		"TFFont"			"HudFontSmall"
 		"HealthDeathWarningColor"	""

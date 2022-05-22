@@ -389,7 +389,7 @@
 
            //red 
 		"team2_grow_dir" 							"east"
-		"team2_base_x"								"c34" //c37
+		"team2_base_x"								"c32" //c37
 		"team2_max_expand"							"225"
 
 		"playerpanels_kv"

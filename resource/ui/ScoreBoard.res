@@ -657,21 +657,24 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ServerTimeLeftLabelBG"
 		"xpos"			"c-24"
-		"ypos"			"-3"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"48"
-		"tall"			"21"
+		"tall"			"19"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"Image"         "../vgui/replay/thumbnails/panels/Material_Transparent_Black_70"
+        "image"                 "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"	
+        "teambg_1"              "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"
+		"teambg_2"              "../vgui/replay/thumbnails/panels/Material_Transparent_red_50"
+		"teambg_3"              "../vgui/replay/thumbnails/panels/Material_Transparent_blue_50"
 		"scaleImage"    "1"
 		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"			
-		"draw_corner_width"		"7"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"7"		
+		"draw_corner_width"		"3"			// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"3"		
 
 		if_mvm
 		{
@@ -682,7 +685,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"Product12"
+		"font"			"Product20"
 		"labelText"		"#Scoreboard_TimeLeftLabel"
 		"textAlignment"		"center"
 		"xpos"			"c-36"
@@ -705,7 +708,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftValueFlame"
 		"xpos"			"c-30"
-		"ypos"			"0"
+		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"60"
 		"tall"			"15"
@@ -716,7 +719,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Product18"
+		"font"			"Product20"
 		
 		if_mvm
 		{
@@ -767,7 +770,7 @@
 		
 		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-25"
-		"wide_minmode"			"255"
+		"wide_minmode"			"510"
 		"tall_minmode"			"10"
 		"fgcolor_minmode"		"255 255 255 255"
 		
