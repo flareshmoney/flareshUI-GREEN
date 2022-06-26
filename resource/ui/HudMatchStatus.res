@@ -322,7 +322,7 @@
 		"enabled"			"1"
 		"textAlignment"	    "south"
 		"labelText"		    "00:00"
-		"delta_item_x"			"484"	
+		"delta_item_x"			"485"	
 		"delta_item_start_y"	"4"
 		"delta_item_end_y"		"4"
 		"PositiveColor"			"Green"
@@ -333,7 +333,7 @@
 		if_match  //tf_use_match_hud 1
 		{
 		
-		"delta_item_x"			"484"	
+		"delta_item_x"			"485"	
 		"delta_item_start_y"	"23"
 		"delta_item_end_y"		"23"
 		"delta_lifetime"		"2"

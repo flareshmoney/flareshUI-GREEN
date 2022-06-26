@@ -210,7 +210,7 @@
 				"xpos"			"117"
 				"ypos"			"0"
 				"zpos"			"9"
-				"wide"			"33"
+				"wide"			"34"
 				"tall"			"15"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
