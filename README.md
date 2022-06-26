@@ -3,6 +3,14 @@ An edit of flareshUI, which is an edit of Yahud.
 
 ![flareshUI-GREEN coverpng](https://user-images.githubusercontent.com/91021280/168424015-a8057136-260b-4c43-84b2-88990c0a1eb5.png)
 
+# Changelog Version 1.2
+
++ Edited MvM Scoreboard to be visible, flawhud mvm scoreboard used as a base.
++ Added a Credits panel to MVM mode.
++ Slightly moved + Health thingy to the right
++ Updated TargetID and the Team menu to be more 4:3 compatable.
++ Moved Ubercharge % on the Spectator UI's to be 1 more unit to the right.
+
 # Changelog Version 1.1
 
 + Time panel now team colored.
