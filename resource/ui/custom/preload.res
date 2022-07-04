@@ -645,7 +645,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"Black70"
+			"Black70"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Black70"
@@ -664,28 +664,25 @@
 			"enabled"		"1"
 			"image"			"../vgui/replay/thumbnails/panels/Material_Transparent_Black_50"
 		}
-	}
-	
-	"ClassIconsPreload"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ClassIconsPreload"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
 		
-		"Demoman"
+		"Red"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"Demoman"
+			"fieldName"		"Red"
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/class_portraits/demoman"
+			"image"			"../vgui/replay/thumbnails/panels/Material_Transparent_red_50"
+		}
+		
+		"Blue"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Blue"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/panels/Material_Transparent_blue_50"
 		}
 	}
 }
