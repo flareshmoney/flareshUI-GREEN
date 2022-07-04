@@ -121,13 +121,14 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"78"
-		"ypos"				"0"
-		"zpos"				"5"
-		"wide"				"30"
-		"tall"				"3"
-		"fillcolor"		    "White"
+		"xpos"				"-14"
+		"ypos"				"20"
+		"zpos"				"999999"
+		"wide"				"25"
+		"tall"				"2"
 		"visible"			"0"
-		"enabled"			"0"
+		"enabled"			"1"
+		"fillcolor"   "White"	
+		"scaleImage"		"1"
 	}
 }

@@ -11,12 +11,12 @@
 		"enabled"		"1"
 	
 		//blue
-		"team1_player_base_offset_x"		"-331" //456
+		"team1_player_base_offset_x"		"-351" //456
 		"team1_player_base_y"				"307"  //185
 		"team1_player_delta_x"				"0"    //0
 		"team1_player_delta_y"				"-16"  //-16
 		
-		"team2_player_base_offset_x"		"-331" //-456
+		"team2_player_base_offset_x"		"-351" //-456
 		"team2_player_base_y"				"123"  //209 
 		"team2_player_delta_x"				"0"    //0
 		"team2_player_delta_y"				"16"   //16
@@ -57,8 +57,8 @@
 				"ControlName"	"CExLabel"
 				"fieldName"	    "playernameshadow"
 				"font"		    "Product12"
-				"xpos"			"33"
-				"ypos"			"0"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"7"
 				"wide"			"88"
 				"tall"			"15"
@@ -68,6 +68,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"Black"
+				"pin_to_sibling" 					"PlayerName"
 			}
 		
             "BGHP"
@@ -78,10 +79,10 @@
 				"ypos"          "-1"
 				"zpos"          "10"
 				"wide"          "28"
-				"tall"          "18"
+				"tall"          "16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"fillcolor"		"64 64 64 255"
+				"fillcolor"		"33 33 33 200"
 				"visible"		"1"
 				"enabled"		"1"
 			}
@@ -126,7 +127,7 @@
 				"xpos"			"122"
 				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"18"
+				"wide"			"16"
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
@@ -144,7 +145,7 @@
 				"wide"			"98"
 				"tall"			"2"
 				"visible"		"1"
-				"bgcolor_override"		"0 0 0 75"
+				"bgcolor_override"		"44 44 44 75"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -206,33 +207,32 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"chargeamount"
-				"font"		"Product13"
+				"font"		"Uber13"
 				"xpos"			"117"
-				"ypos"			"0"
+				"ypos"			"-2"
 				"zpos"			"9"
-				"wide"			"33"
-				"tall"			"15"
+				"wide"			"34"
+				"tall"			"16"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"center"
-				"fgcolor"		"Lime"	
+				"textAlignment"	"south"
+				"fgcolor"		"Mint"	
 			}
-					
-			"chargeamountcover"
+			
+			"chargeamountShadow"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamountcover"
-				"font"								"Shapes64"
-				"xpos"								"97"
-				"ypos"								"0"
-				"zpos"								"8"
-				"wide"								"25"
-				"tall"								"18"
-				"visible"							"0"
-				"labelText"							"%chargeamount%"
-				"textAlignment"						"east"
-				"fgcolor"							"255 255 255 100"
-				"PaintBackgroundType"	"2"
+				"ControlName"	"CExLabel"
+				"fieldName"	"chargeamountShadow"
+				"font"		"Uber13"
+				"xpos"			"117"
+				"ypos"			"-2"
+				"zpos"			"9"
+				"wide"			"35"
+				"tall"			"17"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"south"
+				"fgcolor"		"Black"	
 			}
 			
 			//IDK

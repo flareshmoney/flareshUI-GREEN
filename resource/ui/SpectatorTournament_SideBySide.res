@@ -122,7 +122,7 @@
 				"tall"          "18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"fillcolor"		"64 64 64 255"
+				"fillcolor"		"33 33 33 200"
 				"visible"		"1"
 				"enabled"		"1"
 			}
@@ -242,7 +242,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
-				"font"								"Product13"
+				"font"								"Uber13"
 				"xpos"								"-3"
 				"ypos"								"1"
 				"zpos"								"9"
@@ -253,25 +253,25 @@
 				"visible"							"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"center"
-				"fgcolor"					        "Lime"
+				"fgcolor"					        "Mint"
 			}
 			
-			"chargeamountcover"
+			"chargeamountShadow"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamountcover"
-				"font"								"BlocksSharp64"
-				"xpos"								"97"
-				"ypos"								"0"
-				"zpos"								"19"
-				"wide"								"28"
-				"tall"								"18"
+				"fieldName"							"chargeamountShadow"
+				"font"								"Uber13"
+				"xpos"								"-3"
+				"ypos"								"1"
+				"zpos"								"9"
+				"wide"								"31"
+				"tall"								"14"
 				"autoResize"						"0"
 				"pinCorner"							"0"
-				"visible"							"0"
+				"visible"							"1"
 				"labelText"							"%chargeamount%"
-				"textAlignment"						"east"
-				"fgcolor"							"White"
+				"textAlignment"						"center"
+				"fgcolor"					        "Black"
 			}
 			
 			//IDK

@@ -25,7 +25,7 @@
 		"wide"			"f0"
 		"tall"			"2"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 50"
+		"bgcolor_override"		"44 44 44 50"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -63,7 +63,7 @@
 		"tall"	 			"20"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"Blue"
+		"fillcolor"			"18 120 255 255"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -82,7 +82,7 @@
 		"tall"	 			"20"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"Red"
+		"fillcolor"			"255 44 54 255"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -118,7 +118,7 @@
 		"xpos"			"40"
 		"ypos"			"31"	
 		"zpos"			"4"
-		"wide"			"640"
+		"wide"			"639"
 		"tall"			"20"
 		"fgcolor"		"White"
 		"autoResize"	"0"
@@ -137,11 +137,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"Product18"				//Medium12
-		"xpos"			"61"
-		"ypos"			"32"	
+		"xpos"			"-1"
+		"ypos"			"-1"	
 		"zpos"			"-2"
-		"wide"			"639"
-		"tall"			"19"
+		"wide"			"641"
+		"tall"			"20"
 		"fgcolor"		"Black"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -151,6 +151,8 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		
+		"pin_to_sibling" 			"TargetNameLabel"
 	}
 	
 	//Uber charge & Killstreak number

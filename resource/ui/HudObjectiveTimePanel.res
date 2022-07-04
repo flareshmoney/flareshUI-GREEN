@@ -4,20 +4,23 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimeBG"
-		"xpos"			"c10"
-		"ypos"			"1"
+		"xpos"			"c11"
+		"ypos"			"2"
 		"zpos"			"-1"
-		"wide"			"50"
-		"tall"	 		"20"
+		"wide"			"48"
+		"tall"	 		"19"
 		"zpos"          "16"
 		"visible"		"1"
 		"enabled"		"1"
 	
-        "Image"                 "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"
+        "image"                 "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"	
+        "teambg_1"              "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"
+		"teambg_2"              "../vgui/replay/thumbnails/panels/Material_Transparent_red_50"
+		"teambg_3"              "../vgui/replay/thumbnails/panels/Material_Transparent_blue_50"
 		"src_corner_height"	    "23"			// pixels inside the image
 		"src_corner_width"	    "23"
-		"draw_corner_width"	    "5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	    "3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	 }
 	
 	"ServerTimeLimitLabel"
@@ -25,10 +28,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"c12"
-		"ypos"			"20"
+		"ypos"			"19"
 		"zpos"			"17"
 		"wide"			"46"
-		"tall"			"15"
+		"tall"			"17"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"

@@ -333,9 +333,9 @@
 		if_match  //tf_use_match_hud 1
 		{
 		
-		"delta_item_x"			"485"	
-		"delta_item_start_y"	"23"
-		"delta_item_end_y"		"23"
+		"delta_item_x"			"445"	
+		"delta_item_start_y"	"34"
+		"delta_item_end_y"		"34"
 		"delta_lifetime"		"2"
 
 		}
