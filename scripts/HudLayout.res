@@ -153,13 +153,12 @@
 		"enabled" "1"
 		"xpos"	    "c-80"
 		"zpos"	"999999"
-		"ypos"	"-50"
+		"ypos"	"-52"
 		"wide"	"f0"
 		"tall"	"480"
 		
-		"blue_active_xpos"			"50"
-		"red_active_xpos"			"80"
-       
+		"blue_active_xpos"			"53"
+		"red_active_xpos"			"83"
 	}	
 
 	HudItemEffectMeter
