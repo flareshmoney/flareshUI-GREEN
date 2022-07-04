@@ -3,6 +3,16 @@ An edit of flareshUI, which is an edit of Yahud.
 
 ![flareshUI-GREEN coverpng](https://user-images.githubusercontent.com/91021280/168424015-a8057136-260b-4c43-84b2-88990c0a1eb5.png)
 
+# Changelog Version 1.3
++ Updated SpectatorUI's healh bg to be team colored.
++ Updated SpectatorUI's Uber% to be a different color.
++ Removed SpectatorUI's Uber's "%". (Download the font)
++ Moved Scoreboard's Map name and server name.
++ Added a line under the active KOTH cap in tf_use_match_hud 0.
++ Fixed missing textures.
++ Changed the team colors of the TargetID slightly.
++ Moved the + Time in tf_use_match_hud 1 to be under the server time.
+
 # Changelog Version 1.2
 
 + Edited MvM Scoreboard to be visible, flawhud mvm scoreboard used as a base.
