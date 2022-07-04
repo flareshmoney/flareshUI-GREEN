@@ -1064,6 +1064,19 @@ Scheme
 			}
 		}
 		
+		"Uber13"
+		{
+			"1"
+			{
+				"name"										"Uber"
+				"tall"										"13"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"0"
+			}
+		}
+		
+		
 		
 		"Product Sans"
 		{
@@ -8818,6 +8831,12 @@ Scheme
 		{
 			"font" 		"resource/fonts/Product Sans Bold.ttf"
 			"name" 		"Product Sans Bold"
+		}
+		
+		"30" 
+		{
+			"font" 		"resource/fonts/Uber.otf"
+			"name" 		"Uber"
 		}
 	}
 }
