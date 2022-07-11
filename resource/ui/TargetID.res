@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"deviderline"
-		"xpos"			"55"
+		"xpos"			"51"
 		"ypos"			"48"
 		"zpos"			"15"
 		"wide"			"f0"
@@ -33,7 +33,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
-		"xpos"				"55"
+		"xpos"				"51"
 		"ypos"				"32"
 		"zpos"				"-3"
 		"wide"				"f0"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetIDBG_Spec_Blue"
-		"xpos"				"55"
+		"xpos"				"51"
         "ypos"              "32"
 		"zpos"				"-3"
 		"wide"				"f0"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetIDBG_Spec_Red"
-		"xpos"				"55"
+		"xpos"				"51"
 		"ypos"				"32"
 		"zpos"				"-3"
 		"wide"				"f0"
@@ -90,25 +90,6 @@
 		"draw_corner_height" 	"0"
 	}
 	
-	//background 
-	"BG"
-    {
-        "ControlName"         "CExImageButton"
-        "fieldName"           "BG"
-        "xpos"                "14"
-        "ypos"                "32"
-        "zpos"                "-4"
-        "wide"	          	  "41"
-        "tall"		          "20"
-        "autoResize"	      "0"
-        "pinCorner"	          "0"
-        "visible"		      "1"
-        "enabled"		      "1"
-        "defaultBgColor_Override"		"NameBG"
-        "PaintBackgroundType""0"
-        "textinsety" "99"
-	}
-
 	//name label, disabling this will leave the shadow on
 	"TargetNameLabel"
 	{	
@@ -119,7 +100,7 @@
 		"ypos"			"31"	
 		"zpos"			"4"
 		"wide"			"639"
-		"tall"			"20"
+		"tall"			"19"
 		"fgcolor"		"White"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -141,7 +122,7 @@
 		"ypos"			"-1"	
 		"zpos"			"-2"
 		"wide"			"641"
-		"tall"			"20"
+		"tall"			"19"
 		"fgcolor"		"Black"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -178,9 +159,28 @@
 		"bgcolor_override"	"0 0 0 125"
 		"paintbackgroundtype"	"2"
 		
-		"auto_wide_tocontents"	"1"
-		"textinsetx"			"6"
+		"auto_wide_tocontents"	"2"
+		"textinsetx"			"3"
 		"use_proportional_insets"	"1"
+	}
+	
+	//Healthbg 
+	"BG"
+    {
+        "ControlName"         "CExImageButton"
+        "fieldName"           "BG"
+        "xpos"                "10"
+        "ypos"                "32"
+        "zpos"                "-4"
+        "wide"	          	  "41"
+        "tall"		          "20"
+        "autoResize"	      "0"
+        "pinCorner"	          "0"
+        "visible"		      "1"
+        "enabled"		      "1"
+        "defaultBgColor_Override"		"NameBG"
+        "PaintBackgroundType""0"
+        "textinsety" "99"
 	}
 	
 	//Health
@@ -188,7 +188,7 @@
 	{
 		"ControlName"		        "EditablePanel"
 		"fieldName"		            "SpectatorGUIHealth"
-		"xpos"			            "12"		
+		"xpos"			            "8"		
 		"ypos"			            "21"
 		"zpos"			            "5"
 		"wide"			            "49"
@@ -206,10 +206,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillAnchor"
-		"xpos"			"9"  //9
-		"ypos"			"37"
+		"xpos"			"7"  //9
+		"ypos"			"16"
 		"wide"			"8"
-		"tall"			"8"
+		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -218,19 +218,19 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"5"
-		"ypos"			"16"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"12"
-		"wide"			"16"
+		"wide"			"15"
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 		
-		//"pin_to_sibling" 			"KillAnchor"
-		//"pin_corner_to_sibling" 	"1"
-		//"pin_to_sibling_corner" 	"1"
+		"pin_to_sibling" 			"KillAnchor"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}
 
 	"AmmoIcon"

@@ -347,17 +347,17 @@
 			"visible"		"0"
 		}
 	}
-	
+	//test
 	"BlueTeamScore"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Product20"
+		"font"			"Product23"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		
 		"xpos"			"c-120"
-		"ypos"			"c-175"
+		"ypos"			"c-174"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -377,7 +377,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreShadow"
-		"font"			"Product20"
+		"font"			"Product23"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"fgcolor"		"0 0 0 255"
@@ -386,7 +386,7 @@
 		"ypos"			"c-174"
 		"zpos"			"3"
 		"wide"			"101"
-		"tall"			"55"
+		"tall"			"57"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -514,24 +514,19 @@
 		}
 	}	
 	
+	//test
 	"RedTeamScore"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Product20"
+		"font"			"Product23"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c10"
-		"ypos"			"c-175"
+		"ypos"			"c-174"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
-		
-		"xpos_minmode"			"c10"
-		"ypos_minmode"			"c-175"
-		"wide_minmode"			"140"
-		"tall_minmode"			"55"
-		"textAlignment_minmode"	"west"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -548,11 +543,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreShadow"
-		"font"			"Product20"
+		"font"			"Product23"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c11"
-		"ypos"			"c-174"
+		"ypos"			"c-173"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -939,7 +934,7 @@
 		"xpos"			"c-265"
 		"ypos"			"67"
 		"zpos"			"3"
-		"wide"			"151"
+		"wide"			"300"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
