@@ -5,7 +5,7 @@ An edit of flareshUI, which is an edit of Yahud.
 
 # Changelog Version 1.5. 18/07/2022
 Fixed spy knife and mvm sapper meter overlapping with some other hud elements.
-Changed the TargetID to be floating health supported.
+Changed the TargetID to be floating health supported
 
 # Changelog Version 1.4
 UpdatedTargetID name to be more centered and slighty more positioned higher.
