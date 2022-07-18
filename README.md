@@ -3,6 +3,16 @@ An edit of flareshUI, which is an edit of Yahud.
 
 ![flareshUI-GREEN coverpng](https://user-images.githubusercontent.com/91021280/168424015-a8057136-260b-4c43-84b2-88990c0a1eb5.png)
 
+# Changelog Version 1.5. 18/07/2022
+Fixed spy knife and mvm sapper meter overlapping with some other hud elements.
+Changed the TargetID to be floating health supported.
+
+# Changelog Version 1.4
+UpdatedTargetID name to be more centered and slighty more positioned higher.
+Updated Scoreboard's teamscore's to be bigger.
+Updated Instruction Manual.
+Deleted lot of unused files (making the file size smaller).
+
 # Changelog Version 1.3
 + Updated SpectatorUI's healh bg to be team colored.
 + Updated SpectatorUI's Uber% to be a different color.
