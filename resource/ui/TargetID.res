@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"deviderline"
-		"xpos"			"51"
+		"xpos"			"8"
 		"ypos"			"48"
 		"zpos"			"15"
 		"wide"			"f0"
@@ -33,7 +33,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
-		"xpos"				"51"
+		"xpos"				"8"
 		"ypos"				"32"
 		"zpos"				"-3"
 		"wide"				"f0"
@@ -190,7 +190,7 @@
 		"fieldName"		            "SpectatorGUIHealth"
 		"xpos"			            "8"		
 		"ypos"			            "21"
-		"zpos"			            "5"
+		"zpos"			            "16"
 		"wide"			            "49"
 		"tall"			            "46"
 		"visible"		            "1"
