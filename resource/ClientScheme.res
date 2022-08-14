@@ -53,7 +53,7 @@ Scheme
         
         "Health"               	"227 227 227 255"      	//Normal health color
         "Positive"             	"255 94 255 255"      	//Buffed HP     //blue buffed hp 0 148 255 255
-        "Negative"             	"255 200 30 255"      	//Low HP     
+        "Negative"             	"255 79 79 255"      	//Low HP     
         
         "ChargingUber"   		"227 227 227 255"  	 	//Percentage color when charging
         "Uber"          		"22 182 71 255"     	//Uber ready color
