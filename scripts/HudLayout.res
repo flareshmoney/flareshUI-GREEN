@@ -18,9 +18,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r637"	
-		"ypos"	 "17"	//17
+		"ypos"	 "23"	//17
 		"wide"	 "636"
-		"tall"	 "468"
+		"tall"	 "470"
 
 		"MaxDeathNotices" "12"
 		"IconScale"	  "0.35"
@@ -37,6 +37,7 @@
 
 		"BaseBackgroundColor"	"36 36 36 100"	        //Dark background color        
 		"LocalBackgroundColor"	"242 242 242 255"	//Background color for you own actions
+
 	}
     
 	/////////////////////////////////////////////////////////////////////////////
@@ -179,7 +180,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"
-		"ypos"			"r150"
+		"ypos"			"r120"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"50"
@@ -308,7 +309,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-97"				
-		"ypos"		"r544"				
+		"ypos"		"r554"				
 		"zpos"		"-1"	
 		"wide"		"248"
 		"tall"		"480"
@@ -320,7 +321,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"323"
+		"ypos"		"313"
 		"wide"	 	"f0"
 		"tall"	 	"50"
 		"priority"	"40"
