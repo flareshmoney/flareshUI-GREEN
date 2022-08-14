@@ -2,7 +2,7 @@
 {
 	"LabelsBG"	
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LabelsBG"
 		"xpos"			"c-180"
 		"ypos"			"c-45"
@@ -11,7 +11,8 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkGray"
+		"bgcolor_override"			"44 44 44 150"
+		"paintbackgroundtype"	"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
@@ -52,7 +53,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NoveMedium14"
+		"font"			"Product14"
 		"xpos"			"0"
 		"ypos"			"r439"
 		"zpos"			"1"
