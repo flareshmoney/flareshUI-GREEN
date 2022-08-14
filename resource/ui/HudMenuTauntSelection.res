@@ -17,7 +17,7 @@
 	}
 	"LabelsBG"	
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LabelsBG"
 		"xpos"			"0"
 		"ypos"			"75"
@@ -26,7 +26,8 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkGray"
+		"bgcolor_override"	"Darkgray"
+		"PaintBackgroundType"	"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}

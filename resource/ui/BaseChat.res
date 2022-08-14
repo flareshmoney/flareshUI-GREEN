@@ -11,7 +11,7 @@
         "zpos"                    "-50"
 		"wide"	 		          "230"
 		"tall"	 		          "100"
-		"fgcolor"		"White"
+		"bgcolor_override"		"44 44 44 100"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -40,8 +40,8 @@
 		"tall"			          "8"
 		"autoResize"		      "1"
 		"pinCorner"		        "0"
-		"visible"		          "1"
-		"enabled"		          "1"
+		"visible"		          "0"
+		"enabled"		          "0"
 		"tabPosition"		      "0"
 		"labelText"		        "#chat_filterbutton"
 		"textAlignment"		    "center"

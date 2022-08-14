@@ -89,7 +89,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		        "Negative"
+		"fgcolor"		        "255 200 30 255"
 		"font"				    "Product20"
 	}
 	

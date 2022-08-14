@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"deviderline"
-		"xpos"			"8"
+		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"15"
 		"wide"			"f0"
@@ -33,7 +33,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
-		"xpos"				"8"
+		"xpos"				"10"
 		"ypos"				"32"
 		"zpos"				"-3"
 		"wide"				"f0"

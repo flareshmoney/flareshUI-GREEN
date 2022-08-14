@@ -80,18 +80,23 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"0"	
+		"xpos"			"-1"	
 		"ypos"			"r40"
 		"zpos"			"1"		
-		"wide"			"50"
-		"tall"			"20"
+		"wide"			"52"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"				"replay/thumbnails/bg_black"	
 		"teambg_1"			"replay/thumbnails/bg_black"
-		"teambg_2"			"replay/thumbnails/bg_red"
-		"teambg_3"			"replay/thumbnails/bg_blue"
+		"teambg_2"			"../hud/tournament_panel_red"
+		"teambg_3"			"../hud/tournament_panel_blu"
+		
+        "src_corner_height"		"23"				
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"5"				
+		"draw_corner_height"    "5"
 	}
 
 	"classmodelpanel"

@@ -226,18 +226,19 @@
 	}
     "BlueTourBG"
 	{
-		"ControlName" "ImagePanel"
+		"ControlName" "Panel"
 		"fieldName"   "BlueTourBG"
-		"xpos"        "0"
+		"xpos"        "-3"
 		"ypos"        "0"
 		"zpos"        "1"
-		"wide"        "56"
+		"wide"        "59"
 		"tall"        "17"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"fillcolor"		"Blue"
 		"visible"			"1"
 		"enabled"			"1"
+		"bgcolor_override"  "Blue"
+		"PaintBackgroundType"	"2"
 		
         if_competitive
 		{
@@ -254,18 +255,20 @@
 	}
     "RedTourBG"
 	{
-		"ControlName" "ImagePanel"
+		"ControlName" "Panel"
 		"fieldName"   "RedTourBG"
-		"xpos"        "0"
+		"xpos"        "-3"
 		"ypos"        "17"
 		"zpos"        "1"
-		"wide"        "56"
+		"wide"        "59"
 		"tall"        "17"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"fillcolor"		"Red"
+		"pinCorner"		    "0"
 		"visible"			"1"
 		"enabled"			"1"
+		"bgcolor_override"  "Red"
+		"PaintBackgroundType"	"2"
+		
         
 		if_competitive
 		{

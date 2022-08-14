@@ -33,24 +33,24 @@
 		"xpos"			"c-255"
 		"ypos"			"c-155"
 		"wide"			"255"
-		"tall"			"25"
+		"tall"			"26"
 		
 		"xpos_minmode"			"c-265"
 		"ypos_minmode"			"c-155"
 		"wide_minmode"			"265"
-		"tall_minmode"			"20"
+		"tall_minmode"			"21"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
+		"image"	     	"../hud/tournament_panel_blu"
 		"scaleImage"		"1"
 		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"
+		"src_corner_height"		"23"				
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"5"				
+		"draw_corner_height"    "5"
 		
 		if_mvm
 		{
@@ -139,24 +139,23 @@
 		"xpos"			"c0"
 		"ypos"			"c-155"
 		"wide"			"255"
-		"tall"			"25"
+		"tall"			"26"
 		
 		"xpos_minmode"			"c0"
 		"ypos_minmode"			"c-155"
 		"wide_minmode"			"260"
-		"tall_minmode"			"20"
+		"tall_minmode"			"21"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"scaleImage"		"1"
+		"image"	     "../hud/tournament_panel_red"
 		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"
+		"src_corner_height"		"23"				
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"5"				
+		"draw_corner_height"    "5"
 		
 		if_mvm
 		{
@@ -169,7 +168,7 @@
 	
 	"MainBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"MainBG"
 		
 		"xpos"			"c-255"
@@ -187,8 +186,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
+		"image"	    "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"
+		
+		"src_corner_height"		"23"				
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"5"				
+		"draw_corner_height"    "5"
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -201,7 +205,7 @@
 		"fieldName"		"BluePlayerList"
 		
 		"xpos"			"c-255"
-		"ypos"			"c-140"
+		"ypos"			"c-138"
 		"zpos"			"20"
 		"wide"			"255"
 		"tall"			"245"	[$WIN32]
@@ -230,7 +234,7 @@
 		"fieldName"		"RedPlayerList"
 		
 		"xpos"			"c0"
-		"ypos"			"c-140"
+		"ypos"			"c-138"
 		"zpos"			"20"
 		"wide"			"255"
 		"tall"			"245"	[$WIN32]	
@@ -357,7 +361,7 @@
 		"textAlignment"		"east"
 		
 		"xpos"			"c-120"
-		"ypos"			"c-174"
+		"ypos"			"c-173"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -383,7 +387,7 @@
 		"fgcolor"		"0 0 0 255"
 		
 		"xpos"			"c-120"
-		"ypos"			"c-174"
+		"ypos"			"c-173"
 		"zpos"			"3"
 		"wide"			"101"
 		"tall"			"57"
@@ -523,7 +527,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c10"
-		"ypos"			"c-174"
+		"ypos"			"c-173"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -547,7 +551,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c11"
-		"ypos"			"c-173"
+		"ypos"			"c-172"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -732,22 +736,22 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DividerLine"
 		"xpos"			"c-1"
-		"ypos"			"c-155"
+		"ypos"			"c-153"
 		"zpos"			"2"
 		"wide"			"2"
-		"tall"			"260"
+		"tall"			"256"
 		
 		"xpos_minmode"			"c-1"
-		"ypos_minmode"			"c-155"
+		"ypos_minmode"			"c-153"
 		"wide_minmode"			"2"
-		"tall_minmode"			"130"
+		"tall_minmode"			"127"
 		"visible_minmode"		"1"
 		
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 255 255 150"
+		"fillcolor"		"200 200 200 200"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -913,7 +917,7 @@
 		"font"			"Product12bold"
 		"labelText"		"%mapname%"
 		"textAlignment"		"east"
-		"xpos"			"c109"
+		"xpos"			"c102"
 		"ypos"			"67"
 		"zpos"			"3"
 		"wide"			"151"
@@ -922,6 +926,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"xpos_minmode"			"c109"
+		"ypos_minmode"			"67"
 	}
 	
 	"ServerLabelNew"
@@ -931,7 +938,7 @@
 		"font"			"Product12"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"xpos"			"c-265"
+		"xpos"			"c-253"
 		"ypos"			"67"
 		"zpos"			"3"
 		"wide"			"300"
@@ -940,6 +947,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+	    "xpos_minmode"			"c-265"
+		"ypos_minmode"			"67"
 	}	
 	
 	"HorizontalLine"

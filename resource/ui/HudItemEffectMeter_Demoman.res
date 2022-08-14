@@ -75,7 +75,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"			        "c189"	
+		"xpos"			        "c124"	
 		"ypos"			        "348"
 		"zpos"					"2"
 		"wide"					"92"
@@ -88,7 +88,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		        "Negative"
+		"fgcolor"		        "255 200 30 255"
 		"font"				    "Product20"
 	}
 	
@@ -96,7 +96,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"			        "c190"	
+		"xpos"			        "c125"	
 		"ypos"			        "349"
 		"zpos"					"2"
 		"wide"					"93"

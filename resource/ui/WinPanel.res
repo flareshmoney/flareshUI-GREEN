@@ -32,7 +32,7 @@
 		
 		"BlueLabelBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueLabelBG"
 			"xpos"			"c-120"
 			"ypos"			"r64"
@@ -41,7 +41,8 @@
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"Blue"
+			"bgcolor_override"			"Blue"
+		    "paintbackgroundtype"	"2"
 		}
 		"BlueTeamLabel"
 		{
@@ -100,7 +101,7 @@
 		}
 		"RedLabelBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedLabelBG"
 			"xpos"			"c0"
 			"ypos"			"r64"
@@ -109,7 +110,8 @@
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"Red"
+			"bgcolor_override"			"Red"
+		    "paintbackgroundtype"	"2"
 		}
 		"RedTeamLabel"
 		{
@@ -178,7 +180,7 @@
 	}
 	"WinningTeamLabelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"WinningTeamLabelBG"
 		"xpos"			"c-105"
 		"ypos"			"r66"
@@ -187,7 +189,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"44 44 44 150"
+		"bgcolor_override"			"44 44 44 150"
 		"paintbackgroundtype"	"2"
 	}
 	"WinningTeamLabel"

@@ -77,29 +77,31 @@
 	}
 	"BlueTeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamBG"
 		"xpos"			"298"
 		"ypos"			"230"
 		"zpos"			"-3"
 		"wide"			"121"
 		"tall"			"22"
-		"fillcolor"		"Blue"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"blue"
+		"PaintBackgroundType"	"2"
 	}
     "RedTeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedTeamBG"
 		"xpos"			"435"
 		"ypos"			"230"
 		"zpos"			"-3"
 		"wide"			"121"
 		"tall"			"22"
-		"fillcolor"		"Red"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"red"
+		"PaintBackgroundType"	"2"
 	}
    
     "JoinBlueButton"
