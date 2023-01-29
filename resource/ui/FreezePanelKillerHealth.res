@@ -8,7 +8,7 @@
 		"ypos"			"6"
 		"zpos"			"4"
 		"wide"			"13"
-		"tall"			"13"
+		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"west"
-		"font"			"Product26"
+		"font"			"Product30"
 		"fgcolor"		"Health"
 	}
 	
@@ -78,14 +78,15 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"6"
 		"ypos"			"8"
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"west"
-		"font"			"Product26"
+		"font"			"Product30"
+		
 		"fgcolor_override"		"0 0 0 255"
 	}
 	

@@ -47,8 +47,8 @@
 		"zpos"		"3"
 		"wide"		"2"
 		"tall"		"4"
-		"visible"	"1"
-		"enabled"	"1"
+		"visible"	"0"
+		"enabled"	"0"
 		"fillcolor"	"0 0 0 255"
 	}
 	

@@ -15,24 +15,27 @@
 	
 	"BlueBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"BlueBG"
 		"xpos"			"c-31"
-		"ypos"			"r72"
+		"ypos"			"r73"
         "zpos"          "-4"
 		"wide"			"30" //110
 		"tall"			"16"
-		"fillcolor"		"10 128 221 150"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"bgcolor_override"		"10 128 221 150"
+		"PaintBackgroundType"	"2"
+		
 	}
 	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-93"
-		"ypos"			"r81"
+		"xpos"			"c-91"
+		"ypos"			"r82"
 		"zpos"			"8"
 		"wide"			"80"
 		"tall"			"34"
@@ -48,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"-2"
+		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"80"
@@ -67,14 +70,15 @@
 	
 	"RedBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"RedBG"
 		"xpos"			"c-1"
-		"ypos"			"r72"
+		"ypos"			"r73"
         "zpos"          "-4"
 		"wide"			"30" //112
 		"tall"			"16"
-		"fillcolor"		"245 51 62 150"
+		"bgcolor_override"		"245 51 62 150"
+		"PaintBackgroundType"	"2"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -84,7 +88,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c8"
-		"ypos"			"r81"
+		"ypos"			"r82"
 		"zpos"			"8"
 		"wide"			"80"
 		"tall"			"34"
@@ -100,7 +104,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"-2"
+		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"80"

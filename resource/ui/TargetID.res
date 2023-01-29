@@ -1,20 +1,5 @@
 "Resource/UI/TargetID.res"
 {
-
-	"TargetBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"TargetBG"
-		"xpos"				"0"
-		"ypos"				"25"
-		"zpos"				"0"
-		"wide"				"640"
-		"tall"				"20"
-		"visible"			"0"
-		"enabled"			"1"
-		"fillcolor"			"TransparentBlack"
-	}
-	
 	"line"
 	{
 		"ControlName"		"Panel"
@@ -26,7 +11,7 @@
 		"tall"			"2"
 		"visible"		"1"
 		"bgcolor_override"		"44 44 44 50"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"TargetIDBG"

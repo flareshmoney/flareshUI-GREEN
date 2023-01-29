@@ -64,7 +64,7 @@
 		"zpos"		"5"
 		"wide"		"2"
 		"tall"		"4"
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
 		"fillcolor"	"0 0 0 255"
 	}
@@ -78,7 +78,7 @@
 		"zpos"		"3"
 		"wide"		"2"
 		"tall"		"4"
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
 		"fillcolor"	"0 0 0 255"
 	}
@@ -92,7 +92,7 @@
 		"zpos"		"3"
 		"wide"		"2"
 		"tall"		"4"
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
 		"fillcolor"	"0 0 0 255"
 	}

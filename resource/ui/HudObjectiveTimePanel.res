@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimeBG"
-		"xpos"			"c11"
-		"ypos"			"2"
+		"xpos"			"c10"
+		"ypos"			"1"
 		"zpos"			"-1"
-		"wide"			"48"
-		"tall"	 		"19"
+		"wide"			"50"
+		"tall"	 		"20"
 		"zpos"          "16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -17,11 +17,30 @@
         "teambg_1"              "../vgui/replay/thumbnails/panels/Material_Transparent_black_70"
 		"teambg_2"              "../vgui/replay/thumbnails/panels/Material_Transparent_red_50"
 		"teambg_3"              "../vgui/replay/thumbnails/panels/Material_Transparent_blue_50"
-		"src_corner_height"	    "23"			// pixels inside the image
+		"src_corner_height"	    "31"			// pixels inside the image
 		"src_corner_width"	    "23"
-		"draw_corner_width"	    "3"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"3"	
+		"draw_corner_width"	    "5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	 }
+	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"c10"
+		"ypos"			"18"
+		"wide"			"50"
+		"tall"	 		"20"
+		"zpos"          "16"
+		"visible"		"1"
+		"enabled"		"1"
+		
+        "Image"                 "../vgui/replay/thumbnails/panels/Material_Transparent_Black_50"
+		"src_corner_height"	    "23"				// pixels inside the image
+		"src_corner_width"	    "23"
+		"draw_corner_width"	    "5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
 	
 	"ServerTimeLimitLabel"
 	{
@@ -42,26 +61,6 @@
 		"font"			"Product20"
 		"fgcolor"		"White"
 	}
-	
-	"ServerTimeLimitLabelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"c10"
-		"ypos"			"18"
-		"wide"			"50"
-		"tall"	 		"20"
-		"zpos"          "16"
-		"visible"		"1"
-		"enabled"		"1"
-		
-        "Image"                 "../vgui/replay/thumbnails/panels/Material_Transparent_Black_50"
-		"src_corner_height"	    "23"				// pixels inside the image
-		"src_corner_width"	    "23"
-		"draw_corner_width"	    "5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-	}
-
 	
 	"TimePanelProgressBar"
 	{
@@ -133,7 +132,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"surface10"
+		"font"			"Product10"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -191,10 +190,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"c16"
-		"ypos"			"16"
+		"xpos"			"c58"
+		"ypos"			"2"
 		"zpos"			"5"
-		"wide"			"40"
+		"wide"			"41"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -205,24 +204,35 @@
 		"wrap"			"0"
 		"font"			"Product14"
 		"fgcolor"		"255 255 255 255"
+		
+		"if_match"
+		{
+		"xpos"			"c16"
+		"ypos"			"34"
+		}
 	}	
 	
 	"SetupBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"SetupBG"
-		"xpos"			"c10"
-		"ypos"			"18"
+		"xpos"			"c58"
+		"ypos"			"3"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"40"
 		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
-		"image"         "../vgui/replay/thumbnails/panels/Material_Transparent_black_50"
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"bgcolor_override"		"0 0 0 175"
+		"PaintBackgroundType"	"2"
+		
+		"if_match"
+		{
+		"xpos"			"c16"
+		"ypos"			"36"
+		"wide"			"40"
+		"tall"			"15"
+		}
 	}
 }

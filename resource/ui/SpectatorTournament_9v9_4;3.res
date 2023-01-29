@@ -38,7 +38,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	    "playername"
-				"font"		    "Product12"
+				"font"		    "Product13"
 				"xpos"			"32"
 				"ypos"			"-1"
 				"zpos"			"8"
@@ -56,7 +56,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	    "playernameshadow"
-				"font"		    "Product12"
+				"font"		    "Product13"
 				"xpos"			"-1"
 				"ypos"			"-1"
 				"zpos"			"7"
@@ -317,7 +317,6 @@
 		"visible"		"0"
 		"ypos"			"480"
 	}
-	
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"

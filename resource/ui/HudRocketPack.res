@@ -9,7 +9,7 @@
 
 	"ItemEffectMeter"
 	{	
-		"wide"			"30"
+		"wide"			"29"
 	}
 	
 	"ItemEffectMeter2"
@@ -17,10 +17,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
-		"xpos"			"40"
+		"xpos"			"41"
 		"ypos"			"5"
 		"zpos"			"2"
-		"wide"			"30"
+		"wide"			"29"
 		"tall"			"4"				
 		"autoResize"	"0"
 		"pinCorner"		"0"

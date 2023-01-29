@@ -46,15 +46,34 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"NoveMedium24"
+		"font"			"Product26"
 		"labelText"		"%counttext%"
 		"textAlignment" "west"
-		"xpos"			"27"
-		"ypos"			"0"
+		"xpos"			"24"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"24"
 		"fgcolor"		"255 255 255 255"
+	}
+	
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountTextShadow"
+		"font"			"Product26"
+		"labelText"		"%counttext%"
+		"textAlignment" "west"
+		"xpos"			"1"
+		"ypos"			"-1"
+		"zpos"			"3"
+		"wide"			"80"
+		"tall"			"24"
+		"fgcolor"		"0 0 0 255"
+		
+		"pin_to_sibling" 			"CountText"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}
 	
 	"ItemEffectMeterBG"

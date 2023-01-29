@@ -30,18 +30,36 @@
 	}
 	"MainBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"MainBG"
 		"xpos"			"c101"
 		"ypos"			"150"
 		"zpos"			"-5"
 		"wide"			"119"
 		"tall"			"183"
-		"fillcolor"		"44 44 44 150"
+		"bgcolor_override"		"0 0 0 150"
 		"PaintBackgroundType"	"2"
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
+	"BGCancel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BGCancel"
+		"xpos"			"-2"
+		"ypos"			"-2"
+        "zpos"          "-4"
+		"wide"			"83"
+		"tall"			"57"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"bgcolor_override"	"0 0 0 150"
+		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling" 			"EditLoadoutButton"
+    }
 	
 	"Frog"
 	{
@@ -784,8 +802,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"Black"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
     "ButtonBGEdit"
 	{
@@ -800,8 +818,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"Black"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
     "ButtonBGRandom"
 	{
@@ -816,8 +834,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"Black"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"CancelButton"  
 	{
@@ -850,7 +868,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QuitLabel"
-		"xpos"			"2"		
+		"xpos"			"3"		
 		"ypos"			"r22"		
 		"zpos"			"16"
 		"wide"			"20"
@@ -866,7 +884,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Product16"
+		"font"			"Product18Bold"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"

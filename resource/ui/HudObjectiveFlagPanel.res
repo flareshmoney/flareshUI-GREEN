@@ -19,14 +19,15 @@
 	}
     "BlueBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"BlueBG"
 		"xpos"			"c-30" //80
-		"ypos"			"r35"
+		"ypos"			"r23"
         "zpos"          "-4"
 		"wide"			"30" //80
 		"tall"			"16"
-		"fillcolor"		"10 128 221 150"  //Blue
+		"bgcolor_override"		"10 128 221 150"  //Blue
+		"PaintBackgroundType"	"2"
 		"visible"		"1"
 		"enabled"		"1"
         
@@ -47,14 +48,15 @@
 	}
 	"RedBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"RedBG"
 		"xpos"			"c0"
-		"ypos"			"r35"
+		"ypos"			"r23"
         "zpos"          "-4"
 		"wide"			"31-.05"
 		"tall"			"16"
-		"fillcolor"		"245 51 62 150"  //Red
+		"bgcolor_override"		"245 51 62 150"  //Red
+		"PaintBackgroundType"	"2"
 		"visible"		"1"
 		"enabled"		"1"
         
@@ -83,7 +85,7 @@
 		"wide"			"60" //160
 		"tall"			"12"
 		"fillcolor"		"DarkGray"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
         
         "if_hybrid"
@@ -151,10 +153,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-38"
-		"ypos"			"r35"
+		"ypos"			"r23"
 		"zpos"			"-1"
 		"wide"			"30"
-		"tall"			"17"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
@@ -182,10 +184,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c8"
-		"ypos"			"r35"
+		"ypos"			"r23"
 		"zpos"			"-1"
 		"wide"			"30"
-		"tall"			"17"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
@@ -243,7 +245,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-40"
-		"ypos"			"r19"
+		"ypos"			"r34"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"11"

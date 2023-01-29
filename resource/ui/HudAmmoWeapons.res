@@ -26,15 +26,19 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"Product47"
 		"fgcolor"		"HudShadow"
-		"xpos"	        "c42"		
-		"ypos"	        "337"		
+		"xpos"	        "2"		
+		"ypos"	        "-1"		
 		"zpos"			"7"
-		"wide"	        "96" 
+		"wide"	        "95" 
 		"tall"	        "44" 
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
+		
+		"pin_to_sibling" 			"AmmoInClip"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}
 
 	//reserve ammo
@@ -62,15 +66,19 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"Product23"
 		"fgcolor"		"HudShadow"
-		"xpos"	        "c141"
-		"ypos"			"353"
+		"xpos"	        "2"
+		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"92"
+		"wide"			"93"
 		"tall"			"46"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
+		
+		"pin_to_sibling" 			"AmmoInReserve"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}		
 	
 	//weapons with no reserve ammo in it
@@ -98,15 +106,19 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Product47"
 		"fgcolor"		"HudShadow"
-		"xpos"	        "c78"		
-		"ypos"	        "338"		
+		"xpos"	        "2"		
+		"ypos"	        "-1"		
 		"zpos"			"7"
-		"wide"	        "96" 
+		"wide"	        "95" 
 		"tall"	        "44" 
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"			
 		"labelText"		"%Ammo%"
+		
+		"pin_to_sibling" 			"AmmoNoClip"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}
 	
 		"HudWeaponAmmoBG"

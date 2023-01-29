@@ -18,7 +18,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"NoveMedium12"
+		"font"			"Product12"
 		"xpos"			"0"
 		"ypos"			"c-160"
 		"zpos"			"3"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"NoveMedium16"
+		"font"			"Product16"
 		"dropshadow"	"1"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"NoveMedium12"
+		"font"			"Product12"
 		"dropshadow"	"1"
 		"xpos"			"0"
 		"ypos"			"0"
