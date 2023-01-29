@@ -54,26 +54,22 @@
 	
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"TargetIDBG_Spec_Blue"
 		"xpos"				"51"
         "ypos"              "32"
 		"zpos"				"-3"
 		"wide"				"f0"
-		"tall"	 			"20"
+		"tall"	 			"10"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"18 120 255 255"
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
+		"bgcolor_override"			"8 117 202 255"
+		"paintbackgroundtype"	"2"
 	}
 
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"TargetIDBG_Spec_Red"
 		"xpos"				"51"
 		"ypos"				"32"
@@ -82,12 +78,8 @@
 		"tall"	 			"20"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"255 44 54 255"
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
+		"bgcolor_override"			"255 44 54 255"
+        "paintbackgroundtype"	"2"
 	}
 	
 	//name label, disabling this will leave the shadow on
@@ -167,19 +159,19 @@
 	//Healthbg 
 	"BG"
     {
-        "ControlName"         "CExImageButton"
+        "ControlName"         "EditablePanel"
         "fieldName"           "BG"
         "xpos"                "10"
         "ypos"                "32"
         "zpos"                "-4"
         "wide"	          	  "41"
-        "tall"		          "20"
+        "tall"		          "18"
         "autoResize"	      "0"
         "pinCorner"	          "0"
         "visible"		      "1"
         "enabled"		      "1"
-        "defaultBgColor_Override"		"NameBG"
-        "PaintBackgroundType""0"
+        "bgcolor_override"		"DarkGray"
+        "PaintBackgroundType""2"
         "textinsety" "99"
 	}
 	

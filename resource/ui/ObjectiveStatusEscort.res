@@ -27,7 +27,7 @@
 		"fieldName"		"LevelBar"	
 		"xpos"			"73"
 		"ypos"			"113"	
-		"zpos"			"0"
+		"zpos"			"-5"
 		"wide"			"103"
 		"tall"			"10"
 		"visible"		"1"
@@ -39,7 +39,7 @@
 		"if_multiple_trains"
 		{
 			"ypos"			"114"
-			"zpos"			"3"
+			"zpos"			"-3"
 			"tall"			"12"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
@@ -189,9 +189,9 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"NoveMedium8"		
+			"font"			"Product12"		
 			"xpos"		"11"
-			"ypos"		"46"
+			"ypos"		"47"
 			"zpos"			"2"
 			"wide"		"30"
 			"tall"		"18"
@@ -228,11 +228,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"		"13"
+			"xpos"		"14"
 			"ypos"		"50"
 			"zpos"			"1"
-			"wide"		"26"
-			"tall"		"26"
+			"wide"		"24"
+			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -272,7 +272,7 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
@@ -281,20 +281,20 @@
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue_bottom"
+				"image"			"../hud/cart_blue"
 			}			
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red_bottom"
+				"image"			"../hud/cart_red"
 			}
 			
 			"if_multiple_trains"
 			{
 				"xpos"			"16"
-				"ypos"			"75"
-				"wide"			"0"
-				"tall"			"0"
+				"ypos"			"47"
+				"wide"			"20"
+				"tall"			"20"
 			}			
 		}
 		
@@ -398,7 +398,7 @@
 			"font"		"Product10"
 			"xpos"		"11"
 			"ypos"		"47"
-			"zpos"			"4"
+			"zpos"			"54"
 			"wide"		"30"
 			"tall"		"18"
 			"autoResize"	"0"
@@ -413,7 +413,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"Medium12"
+				"font"			"Product12"
 				"xpos"			"28"
 				"wide"			"32"
 				"tall"			"19"
@@ -575,7 +575,7 @@
 				"tall"		"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""

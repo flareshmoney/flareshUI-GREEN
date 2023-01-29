@@ -200,10 +200,10 @@
 	"RoundCounter"
 	{
 		"fieldName"								"RoundCounter"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-24"
 		"ypos"									"-30"
 		"zpos"									"97"
-		"wide"									"300"
+		"wide"									"48"
 		"tall"									"999"
 		"visible"								"0"
 		"enabled"								"0"
@@ -211,7 +211,7 @@
 		"starting_width"						"0"   //yep no idea
 		"width_per_round"						"0"  //no idea what this does
 		"indicator_start_offset"				"1"   //this sets the score to be a bit apart from each other
-		"indicator_max_wide"					"23"  //how far the blocks are from each other
+		"indicator_max_wide"					"24"  //how far the blocks are from each other
 		
 		"RoundIndicatorPanel_kv"
 		{
@@ -220,7 +220,7 @@
 			"wide"								"4"
 			"tall"								"3"
 			"zpos"								"98"
-			"image"								"../vgui/replay/thumbnails/panels/Material_Transparent_white_50"
+			"image"								"../vgui/replay/thumbnails/panels/Material_Transparent_White_50"
 			"scaleimage"						"1"
 		}
 		
@@ -333,9 +333,9 @@
 		if_match  //tf_use_match_hud 1
 		{
 		
-		"delta_item_x"			"490"	
-		"delta_item_start_y"	"27"
-		"delta_item_end_y"		"27"
+		"delta_item_x"			"443"	
+		"delta_item_start_y"	"35"
+		"delta_item_end_y"		"35"
 		"delta_lifetime"		"2"
 
 		}
@@ -378,7 +378,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"35"  //This controls the motherfucking wideness of the whole thing, I had to suffer to find this out.
+		"max_size"									"31"  //This controls the motherfucking wideness of the whole thing, I had to suffer to find this out.
 
 		"6v6_gap"									"0"
 		"12v12_gap"									"0"
@@ -402,13 +402,17 @@
 
 			"color_portrait_bg_red"					"Red"
 			"color_portrait_bg_blue"				"Blue"
-			"color_portrait_bg_red_dead"			"79 79 79 255"
-			"color_portrait_bg_blue_dead"			"79 79 79 255"
+			
+			"color_portrait_bg_red_dead"			"79 79 79 226"
+			"color_portrait_bg_blue_dead"			"79 79 79 226"
+			
 			"color_bar_health_high"					"Green"
 			"color_bar_health_med"					"255 130 50 255"
 			"percentage_health_med"					"0.5"
+			
 			"color_bar_health_low"					"Red"
 			"percentage_health_low"					"0.3"
+			
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue" 		"White"
 			
@@ -453,7 +457,7 @@
 				"ypos"								"0"
 				"zpos"								"5"
 				"wide"								"f0"
-				"tall"								"7"
+				"tall"								"8"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -461,7 +465,7 @@
 				"labelText"							"%playername%"
 				"font"								"Product10"
 				"textAlignment"						"center"
-				"bgcolor_override"					"TransparentBlack"
+				"bgcolor_override"					"33 33 33 196"
 				"proportionaltoparent"				"1"
 				"alpha"								"255"
 				
@@ -475,7 +479,7 @@
 				"ControlName"						"CTFClassImage"
 				"fieldName"							"ClassImage"
 				"xpos"								"0"
-				"ypos"								"0"
+				"ypos"								"-1"
 				"zpos"								"5"
 				"wide"								"18"
 				"tall"								"18"
@@ -499,7 +503,7 @@
 				"ypos"								"0"
 				"zpos"								"3"
 				"wide"								"f0"
-				"tall"								"22"				
+				"tall"								"24"				
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -524,7 +528,7 @@
 				"ypos"								"0"
 				"zpos"								"4"
 				"wide"								"f0"
-				"tall"								"22"				
+				"tall"								"24"				
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -533,7 +537,7 @@
 				"dulltext"							"0"
 				"brighttext"						"0"
 				"bgcolor_override"	   				"Blank"
-				"fgcolor_override"	   				"255 255 255 200"
+				"fgcolor_override"	   				"255 255 255 140"
 				"proportionaltoparent"				"1"
 				
 				"pin_to_sibling" 					"healthbar"
@@ -545,7 +549,7 @@
 				"fieldName"							"RespawnTime"
 				"font"								"Product14"
 				"xpos"								"0"
-				"ypos"								"18"
+				"ypos"								"17"
 				"zpos"								"10"
 				"wide"								"f0"
 				"tall"								"f0"

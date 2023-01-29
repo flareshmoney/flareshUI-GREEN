@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"5"
+		"xpos"			"-99999"
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"15"
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"6"
+		"xpos"			"-99999999999999"
 		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"13"
@@ -69,7 +69,7 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"west"
 		"font"			"Product26"
-		"fgcolor"		"FlameWhite"
+		"fgcolor"		"Health"
 	}
 	
 	"PlayerStatusHealthValueShadow"

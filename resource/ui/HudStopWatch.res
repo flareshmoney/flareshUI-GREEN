@@ -4,17 +4,17 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"HudStopWatchBG"
-		"xpos"			"c-37"
+		"xpos"			"c-31"
 		"ypos"			"34"
 		"zpos"			"-1"
-		"wide"			"76"
+		"wide"			"62"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"0 0 0 150"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -43,7 +43,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-42"
+		"xpos"				"c-40"
 		"ypos"				"34"	[$WIN32]
 		"zpos"				"1"
 		"wide"				"45"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"Product16"
+		"font"			"Product14"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"xpos"			"c-14"
@@ -92,11 +92,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"Product12"
+		"font"			"Product10"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"west"
-		"xpos"			"c10"
-		"ypos"			"34"
+		"xpos"			"c8"
+		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"35"
 		"tall"			"15"

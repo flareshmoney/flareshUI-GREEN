@@ -10,8 +10,8 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Product20Outline"
-		"delta_item_font_big"	"Product20Outline"
+		"delta_item_font"		"Product25Outline"
+		"delta_item_font_big"	"Product25Outline"
 	}
 
 	"DamageAccountValue"
@@ -29,7 +29,7 @@
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"east"
 		"fgcolor"		"255 255 0 255"
-		"font"			"Product20"
+		"font"			"Product22"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -46,6 +46,6 @@
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"east"
 		"fgcolor"	 		"HudShadow"
-		"font"	 			"Product20"			
+		"font"	 			"Product22"			
 	}
 }
