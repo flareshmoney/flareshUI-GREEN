@@ -19,6 +19,8 @@ event HudHealthBonusPulse
     Animate	SpecBG 	        				BgColor		"178 178 178 255"		Accel 	0.0 0.0
     Animate	SpecBG 	        				Alpha		"255"		        	Accel 	0.0 0.3
 	Animate	SpecBG 	        				Alpha		"255"		        	Accel 	0.3 0.6
+	
+	Animate TargetIDbuffedHealthBG			Alpha	"255"				linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.6
 }
@@ -30,6 +32,7 @@ event HudHealthBonusPulseLoop
 	RunEvent PlayerStatusHealthValueCam 	0.0
 	RunEvent PlayerStatusHealthValueSpec 	0.0
 	RunEvent PlayerStatusHealthValueTour 	0.0
+	Animate TargetIDbuffedHealthBG			Alpha	"255"				linear 0.0 0.0
 }
 
 event HudHealthBonusPulseStop
@@ -52,6 +55,7 @@ event HudHealthBonusPulseStop
     Animate	TargetHPBG 	     				Alpha		"255"		           	Accel 	0.0 0.0
     Animate	SpecBG 	         				BgColor		"Blank"	       			Accel 	0.0 0.0
     Animate	SpecBG 	         				Alpha		"255"		           	Accel 	0.0 0.0
+	Animate TargetIDbuffedHealthBG			Alpha	"0"					linear 0.0 0.0
 }
 
 //============================================================================================================================================================================
@@ -75,6 +79,8 @@ event HudHealthDyingPulse
     Animate	SpecBG 	        		 		BgColor		"Red"	    			Accel 	0.0 0.0  //SpectatorUI BG health
     Animate	SpecBG 	        		 		Alpha		"255"		        	Accel 	0.0 0.3
 	Animate	SpecBG 	        		 		Alpha		"255"		        	Accel 	0.3 0.6
+	
+	Animate TargetIDhurtHealthBG			Alpha	"255"				linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.6
 }
@@ -109,6 +115,8 @@ event HudHealthDyingPulseStop
     Animate	TargetHPBG 	     				Alpha		"255"		            Accel 	0.0 0.0
     Animate	SpecBG 	         				BgColor		"Blank"	       			Accel 	0.0 0.0
     Animate	SpecBG 	         				Alpha		"255"		           	Accel 	0.0 0.0
+	
+	Animate TargetIDhurtHealthBG			Alpha	"0"					linear 0.0 0.0
 }
 
 //============================================================================================================================================================================
@@ -267,7 +275,8 @@ event HudTournament_MoveChatWindow
 
 
 
-event FillUber
+
+vent FillUber
 {
  RunEvent ClearUber 0.0
  Animate UberLabel alpha "255" Linear 0.1 0.001

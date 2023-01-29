@@ -18,7 +18,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r637"	
-		"ypos"	 "23"	//17
+		"ypos"	 "24"	//17
 		"wide"	 "636"
 		"tall"	 "470"
 
@@ -294,8 +294,8 @@
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"-30"
+		"xpos"					"-23"
+		"ypos"					"-85"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
@@ -1121,7 +1121,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-16"
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
@@ -1325,7 +1325,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"2" // rounded corners
 	}
 
 	"HudAlert"
@@ -1348,7 +1348,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"2" // rounded corners
 	}
 
 	CTFFlagCalloutPanel
