@@ -1,22 +1,27 @@
-+ KOTH UI winlimit visibility (?)
++ Used FlareshUI as base, all changes will be in the context of flareshUI.
 
-+ Closed captions visibility.
-closecaption 1
-cc_subtitles 0
-cc_lang "clovervidiac"
-cc_predisplay_time 0
+***Version 1.8   23/10/2022
+Added buff & low health background to the targetID.
+Moved health and ammo shadow text 1 pixel to the right.
+Removed some item meter markers where it wasn't needed. 
+*Note: Due to the fact that not all item meters have their own file I couldn't (for example) keep the markers on banners.
+Small changes to CTF and Passtime scores.
+Added a transparent BG to boss hp.
+Made Item borders full color and round.
+Fixed an issue where the round timer bg was exactly lined up with the round counter. (16:9)
 
-+ Damage number color change
+***Version 1.7   12/09/2022
+Changed HudMatchStatus's player panels to be a bit smaller.
+Changed HudMatchStatus's Buff color to be less of an eyesore, now white greenish.
+Changed the damagenumbers to be bigger.
+Changed the Damagenumbers posistion to be above the player health.
+Updated Stopwatch timer to be below round timer as no payload cfg has an (mp_)timelimit.
+TargetID now more round
+Kill panel fixes.
+Simple disuigse fixes.
+Other changes that I forgot zzzzz
 
-+ move killfeed down for matchstatus visibility
-
-+ more m0rehud black infulence.
-
-+ Increase controlpoint x2 font size
-
-+ uber huditemeffect meter spy overlay issues.
-
-***Version 1.6 changelog:
+***Version 1.6   12/08/2022
 + More round.
 + Changed Chat bg color to be dark grayish.
 + Changed Low Health color to be red pinkish so that the damage number and low health aren't similair in color. SpecUI not effected.
@@ -31,15 +36,37 @@ cc_predisplay_time 0
 + Edited a few files to no longer refrence YaHud.
 + Other very slight changes.
 
-Detailed:
-+ More round.
-Scoreboard is round.
-Playerclass is round.
-Tournament setup is round.
-Team selectio is round.
+***Version 1.5   18/07/2022
+Fixed spy knife and mvm sapper meter overlapping with some other hud elements.
+Updated TargetID to be floating HP supported.
 
-Retiring flareshUI (Default)
-After almost 2 years since a simple color change started flareshUI.
-Thank you for your service, I got it from here.
-Late 2020 - 09/08/2022
-aka fuck you creamy
+***Version 1.4 
+Updated TargetID name to be more centered and slighty more positioned higher.
+Updated Scoreboard's teamscore's to be bigger.
+Updated Instruction Manual.
+Deleted lot of unused files.
+Others that I forgot.
+
+***Version 1.1   22/05/2022
+Time panel now team colored.
+Moved Hudmatchstatus a bit closer.
+Made engi metal smaller.
+Edited spy disguise panel to be enemy team colored, and to have round edges.
+Small edit to the KOTH timer background.
++ Small edit to scoreboard.
+
+***Version 1.0   14/05/2022
+frog
+Updated Health and Ammo Posistion to be higher.
+Updated Health and Ammo text to be smaller.
+Updated Engineer metal count to be higher.
+Updated Spy disguesed as to be above his item meters.
+Updated server & round time bg to have rounded edges
+Removed buff / hurt health bg 
+Changed ammo in clip to be mint colored.
+Made the TargetID more spectating / casting friendly like.
+Moved Frontier justice / Diamond back crits to centered.
+I miss my wife.
+Retired "SpectatorTournament_Default.Res"
+Retired "SpectatorTournament_Top.res" 
+Added 3 new SpectatorUI's: Default (9v9), Side by Side, 6v6.
