@@ -1,6 +1,6 @@
 -=flareshUI-Green Instruction Manual & Credits=-
 
-Last updated: flareshUI-Green V1.6.
+Last updated: flareshUI-Green V1.8b.
 
 -=Includes:
 Fixing missing fonts.
@@ -57,3 +57,7 @@ Stabbyhud,           Created by: Stabby. (HudItemEffectMeter, Killstreak counter
 mkmthud,             Created by: ?. (Class portraits when specing)
 PEACHHUD,            Created by: PeachesTV. (Winlimit)
 flareshUI (Default), Created by: me (Green is an edited version of the default version)
+
+Huds.tf for the hosting of my and many other huds, thanks a lot.
+4,203 Downloads. 40,407 Views. 
+o7
