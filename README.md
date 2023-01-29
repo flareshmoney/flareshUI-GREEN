@@ -3,7 +3,7 @@ An edit of flareshUI, which is an edit of Yahud.
 
 ![flareshUI-GREEN coverpng](https://user-images.githubusercontent.com/91021280/168424015-a8057136-260b-4c43-84b2-88990c0a1eb5.png)
 
-*Version 1.8   23/10/2022
+# Version 1.8   23/10/2022
 Added buff & low health background to the targetID.
 Moved health and ammo shadow text 1 pixel to the right.
 Removed some item meter markers where it wasn't needed. 
@@ -13,7 +13,7 @@ Added a transparent BG to boss hp.
 Made Item borders full color and round.
 Fixed an issue where the round timer bg was exactly lined up with the round counter. (16:9)
 
-*Version 1.7   12/09/2022
+# Version 1.7   12/09/2022
 Changed HudMatchStatus's player panels to be a bit smaller.
 Changed HudMatchStatus's Buff color to be less of an eyesore, now white greenish.
 Changed the damagenumbers to be bigger.
@@ -24,7 +24,7 @@ Kill panel fixes.
 Simple disuigse fixes.
 Other changes that I forgot zzzzz
 
-*Version 1.6   12/08/2022
+# Version 1.6   12/08/2022
 + More round.
 + Changed Chat bg color to be dark grayish.
 + Changed Low Health color to be red pinkish so that the damage number and low health aren't similair in color. SpecUI not effected.
